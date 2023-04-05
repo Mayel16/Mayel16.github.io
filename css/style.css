@@ -235,7 +235,7 @@ nav li a:hover {
 and (max-device-width: 1024px)
 and (orientation: portrait)
 {
-    /* .centre {
+    .centre {
         padding: 0 50px;
     }
     .head {
@@ -291,7 +291,7 @@ and (orientation: portrait)
         align-items: center;
         margin-left: 25px;
         
-    } */
+    }
     /* CSS de base */
 body {
     font-family: 'Nunito Sans', sans-serif;

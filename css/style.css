@@ -232,7 +232,7 @@ nav li a:hover {
 }
 
 @media only screen
-and (max-device-width: 4096px)
+and (max-device-width: 767px)
 and (orientation: portrait)
 {
     /* .centre {

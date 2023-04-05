@@ -1,0 +1,44 @@
+body {
+    font-weight: bold;
+}
+
+.logo {
+    width: 250px;
+}
+
+.societe li::before{
+    content: "►";
+    margin-right: 10px;
+    color: #EEA243;
+
+}
+.societe ul li {
+    list-style-type:none;
+    list-style: none;
+    line-height: 50px;
+}
+
+.societe span {
+    color: #EEA243;
+}
+
+
+.image {
+    padding: 0 400px;
+}
+
+.regle li::before{
+    content: "►";
+    margin-right: 10px;
+    color: #EEA243;
+
+}
+.regle ul li {
+    list-style-type:none;
+    list-style: none;
+    line-height: 50px;
+}
+
+.regle span {
+    color: #EEA243;
+}

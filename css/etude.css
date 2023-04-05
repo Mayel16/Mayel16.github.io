@@ -1,0 +1,61 @@
+
+.image {
+    padding: 0 400px;
+}
+.image img {
+    margin: 20px auto;
+    width: calc(100vw - 800px);
+    border: 5px solid #EEA243;
+    border-radius: 10px;
+    box-shadow: 5px 5px 4px #A26769;
+}
+
+.image img:hover {
+    border: 5px solid #7CAE7A;
+}
+
+.etude h1 {
+    color: #7CAE7A;
+    font-family: 'McLaren', cursive;
+}
+
+.fichier {
+    margin-left:540px;
+    font-size: 16px;
+    color: #EEA243;
+}
+
+.fichier:hover {
+    color:#7CAE7A;
+}
+
+
+p {
+        font-weight: bold;
+        /* text-align: center;*/
+}
+
+
+.partie {
+    text-indent: 40px;
+}
+
+#scroll_to_top {
+    position: fixed;
+    width: 25px;
+    height: 25px;
+    bottom: 50px;
+    right: 30px;
+}
+.fa-arrow-up {
+    width: 50px;
+    color: #EEA243;
+    font-size: 50px;
+}
+
+.fa-arrow-up:hover {
+    width: 50px;
+    color: #7CAE7A;
+    font-size: 50px;
+}
+

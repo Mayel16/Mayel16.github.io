@@ -1,0 +1,234 @@
+body {
+    font-family:'Nunito Sans', sans-serif;
+    margin: 0;
+    color: #32322C;
+    background-color: #CFD6EA ;
+}
+
+.centre {
+    padding: 0 200px;
+}
+/*------------------------------------------------------------- css du header------------------------------------------------------------- */
+header  {
+    background-color: #32322C;
+}
+/* 
+#A26769    terre
+#CFD6EA    gris
+#EEA243    orange
+#32322C    noir
+#7CAE7A    vert
+*/
+
+header h1{
+    color: #7CAE7A ;
+    font-size: 64px;
+    font-family: 'McLaren', cursive;
+}
+
+header p {
+    color: #EEA243;
+    font-size: 24px;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.head a img {
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+/* css du menu */
+nav {
+    background-color:#32322C; 
+    font-family: 'McLaren', cursive;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    padding: 0 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+nav li {
+    display: inline-block;
+    width: 19%;
+    text-align: center;
+   
+}
+
+nav li a {
+    display: block;
+    text-decoration: none;
+    color: #7CAE7A;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+nav li a:hover {
+    color: #EEA243;
+    border-bottom: 2px solid #EEA243;
+    
+}
+
+/*------------------------------------------------------------- css du contact------------------------------------------------------------- */
+.titre_contact {  
+    font-size: 24px;
+    font-weight: bold;  
+    
+}
+
+.contact p span {
+    font-weight: bold;
+    color: #EEA243;
+}
+
+.promesse{
+    display: flex;
+    font-size: 56px;
+    text-shadow: 2px 2px 2px #EEA243;
+    animation: ChangeColor 3s infinite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    margin: auto 0;
+    margin-left: 7rem;
+} 
+
+.align{
+    display: flex;
+    width: calc(100vw - 400px);
+}
+
+/*-------------------------------------------------------------css du slider------------------------------------------------------------- */
+
+.slider {
+    width: 1000px;
+    overflow: hidden;
+    margin: 50px auto;
+    height: 400px;
+}
+
+
+.slides {
+    width: calc(1000px * 3);
+    animation: translate 10s infinite;
+}
+
+.slide {
+    float: left;
+}
+
+
+/*------------------------------------------------------------- css des informations -------------------------------------------------------------*/
+.informations {
+    font-size: 16px;
+
+}
+.informations h1 {
+    color: #7CAE7A;
+    font-family: 'McLaren', cursive;
+}
+
+.informations ul {
+    list-style-type:none;
+    line-height: 50px;
+}
+
+.sport::before{
+    content: "►";
+    margin-right: 10px;
+    color: #EEA243;
+}
+
+.warning {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    
+}
+
+.warning span {
+    color: #EEA243;
+}
+
+.informations ul li span {
+    color: #EEA243;
+    font-weight: bold;
+}
+
+.warning_panel {
+    width: 5%;
+}
+
+.pass {
+    font-family: 'McLaren', cursive;
+}
+
+/*------------------------------------------------------------- css du footer------------------------------------------------------------- */
+.footer {
+    font-size: 24px;
+    background-color: #32322C;
+    justify-content: space-between;
+    display: flex;
+    padding-left: 200px;
+    padding-right: 170px;
+}
+
+.mention {
+    float: left;
+    font-family: 'McLaren', cursive;
+    padding-top: 10px;
+    color: #7CAE7A;   
+}
+
+.reseaux {
+   padding-top: 10px; 
+}
+
+.reseaux img {
+    width: 40px;
+}
+
+
+/* transition pour la promesse */
+@keyframes ChangeColor {
+    from, to { text-shadow: 2px 2px 4px #EEA243; }
+    10%      { text-shadow: 2px 2px 4px #7CAE7A; }
+    90%      { text-shadow: 2px 2px 4px hsl( 36, 80%, 45%); }
+}
+
+/* transition pour le slider */
+@keyframes translate {
+    0% {
+        transform: translateX(0);
+    }
+    10% {
+        transform: translateX(0);
+    }
+    33% {
+        transform: translateX(-1000px);
+    }
+    43% {
+        transform: translateX(-1000px);
+    }
+    66% {
+        transform: translateX(-2000px);
+    }
+    76% {
+        transform: translateX(-2000px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+

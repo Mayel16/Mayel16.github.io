@@ -1,0 +1,50 @@
+/*------------------------------------------------------------- css de la page inscription ------------------------------------------------------------- */
+.informations ul li::before{
+    content: "►";
+    margin-right: 10px;
+    color: #EEA243;
+}
+
+form {
+    width: 100%;
+    position: relative;
+    margin: 30px auto 0 auto;
+    border: 5px solid #32322C;
+    border-radius: 10px;
+    padding:  10px;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    background: #A26769 ;
+}
+
+.row {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-gap: 20px 30px;
+    margin-bottom: 50px;
+}
+
+label{
+    color: #EEA243;
+    font-family: 'McLaren', cursive;
+    font-size: 16px;
+}
+
+input ,select{
+    font-weight: 400;
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: 2px solid #32322C;
+}
+
+input:hover, select:hover{
+    border: 2px solid #EEA243;
+}
+input[type='text'],input[type='email']{
+    width: 250px;
+}
+.check{
+    color: #EEA243;
+    font-family: 'McLaren', cursive;
+}

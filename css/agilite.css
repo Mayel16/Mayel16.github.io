@@ -1,0 +1,25 @@
+/* css de la page les sports d'agilités */
+
+h1, h2{
+    color: #7CAE7A;
+    font-family: 'McLaren', cursive;
+}
+
+
+.molkky ul, .lancer_anneaux ul {
+        list-style-type:none;
+        line-height: 50px;
+    
+}
+
+.molkky ul li::before{
+    content: "►";
+    margin-right: 10px;
+    color: #EEA243;
+}
+
+.lancer_anneaux ul li::before{
+    content: "►";
+    margin-right: 10px;
+    color: #EEA243;
+}
